@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "ba42088d-50ca-479d-8d0d-0accbbdbcdd5",
+		"name": "simpleCRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all review",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/review",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create review",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"order_id\":1,\n\t\"product_id\":2,\n\t\"user_id\":1,\n\t\"rating\":5,\n\t\"review\":\"makanan yang sangat enak sekali untuk disantap\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/review",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update review",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":1,\n\t\"order_id\":1,\n\t\"product_id\":2,\n\t\"user_id\":1,\n\t\"rating\":5,\n\t\"review\":\"bukan sesuatu yang aneh sih\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/review",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find review",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/review/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"review",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete review",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/review/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"review",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

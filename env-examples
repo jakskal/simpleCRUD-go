@@ -1,0 +1,4 @@
+MYSQL_user = user
+MYSQL_pass= assword
+MYSQL_dbName = yourdatabasename
+MYSQL_dbhost = your db host
