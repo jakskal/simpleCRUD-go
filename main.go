@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"test/simpleCRUD/userreview"
 
+	"github.com/jakskal/simpleCRUD-go/userreview"
 	"github.com/julienschmidt/httprouter"
 )
 

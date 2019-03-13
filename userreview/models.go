@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"test/simpleCRUD/config"
 
+	"github.com/jakskal/simpleCRUD-go/config"
 	"github.com/julienschmidt/httprouter"
 )
 
