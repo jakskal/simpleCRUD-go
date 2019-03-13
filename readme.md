@@ -1,8 +1,8 @@
 ## you will need 
-https://github.com/golang-migrate/migrate .
-https://github.com/julienschmidt/httprouter .
-https://github.com/joho/godotenv .
-Mysql driver installed .
+https://github.com/golang-migrate/migrate 
+https://github.com/julienschmidt/httprouter 
+https://github.com/joho/godotenv 
+Mysql driver installed 
 
 ## How to start 
 1. creat database in mysql
